@@ -1,0 +1,65 @@
+---
+layout: page
+permalink: index.html
+ocotocat: sci-gaia-logo.png
+author: brucellino
+contributors:
+---
+<div class="jumbotron">
+<h2>{{ site.title }}</h2>
+<blockquote>
+  {{ site.intro }}
+</blockquote>
+<h3><a href="{{site.url }}/updates" class="btn">Updates</a></h3>
+<h3><a href="{{site.url }}/ci-cd" class="btn">Status</a></h3>
+<h3>Starts {{ site.data.hackfest.start_time | date: "%A %d %B %Y at %H:%M"}}</h3>
+<ul class="list-inline">
+  <li>
+    <a href="{{ site.url }}/before-checklist/" class="btn">Pre-event checklist</a>
+  </li>
+  <li>
+    <a href="{{ site.url }}/prerequisites/" class="btn">Prerequisite knowledge</a>
+  </li>
+  <li>
+    <a href="{{ site.url }}/before-prep/" class="btn">Background material</a>
+  </li>
+</ul>
+</ul>
+<ul class="list-inline">
+  <li>
+    <a href="{{ site.data.hackfest.registration }}" class="btn"><i class="fa fa-sign-in"></i> Register</a>
+  </li>
+  <li>
+    <a href="{{ site.data.hackfest.discuss_topic }}" class="btn"><i class="fa fa-comments-o"></i> Discussion</a>
+  </li>
+  <li>
+    <a href="{{ site.data.hackfest.agenda }}" class="btn"><i class="fa fa-calendar"></i>  Agenda</a>
+  </li>
+</ul>
+</div>
+<a class="twitter-timeline" data-height="600" data-link-color="#FAB81E" href="https://twitter.com/ei4africa">Tweets by ei4africa</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+<!--
+<div class="main-post-list">
+
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="{{ site.url }}{{ post.url | remove_first: '/' }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
+        <div class="post-list__meta"><time datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags">on {% for tag in post.tags %}<a href="{{ site.url }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span></div>
+        <hr class="post-list__divider">
+      </li>
+    {% endfor %}
+  </ol>
+
+  <hr class="post-list__divider ">
+
+  {% if paginator.previous_page or paginator.next_page %}
+      {% include pagination.html %}
+  {% endif %}
+
+</div>
+-->

@@ -1,0 +1,155 @@
+---
+- name: Plantisc2
+  repo:  https://github.com/cudanor/Plantisc
+  stack:
+  members:
+    - cudanor
+  components:
+    - oar
+    - FG
+  applications:
+    - Python
+    - MySQL
+
+- name: AARRMS
+  repo: addisriversmonitor
+  stack:  http://stackshare.io/yosephabate/addisriversmonitorstack
+  members:
+    - yosephabate
+  components:
+    - oar
+    - FG
+
+- name: AgriSERVICOM
+  repo:
+  stack:
+  members:
+  components:
+    - oar
+    - FG
+    - ophidia
+  applications:
+    - Python
+    - MySQL
+
+- name: ACEPRD
+  repo:
+  stack: http://stackshare.io/Davazano/aceprd-plant-repository
+  members:
+    - lordmila
+  components:
+    - oar
+    - FG
+  applications:
+    - Python
+    - PostgreSQL
+
+- name: fuzzyfier
+  repo: https://github.com/princetee/defuzzifier
+  stack:
+  members:
+    - princetee
+  components:
+    - FG
+    - gLibrary
+  applications:
+    - fuzzylite
+
+- name: D4PR
+  repo: UNIZIK-Drug-Design-and-Informatics
+  stack: https://stackshare.io/nnamdi-azikiwe-university-awka/d4pr
+  members:
+    - icuzochukwu
+  components:
+    - FG
+    - gLibrary
+    - OAR
+  applications:
+    - AutoDock
+    - VINA
+    - GROMACS
+
+
+- name: ethernet
+  repo:
+  stack:
+  members:
+    - behailukorma
+
+- name: metdata
+  repo:
+  stack:
+  members:
+    - olutayoajayifunaab
+
+- name: gwas-pipeline
+  repo:
+  stack:
+  members:
+    - damilare88
+  components:
+    - oar
+    - FG
+  applications:
+    - Python
+    - Perl
+    - java
+    - R
+
+- name: ibis
+  repo:
+  stack:
+  members:
+  components:
+    - FG
+  applications:
+    - WEKA
+    - jena
+
+- name: MIPAR
+  repo:
+  stack:
+  members:
+  components:
+    - oar
+    - FG
+  applications:
+    - R
+
+- name: OAU-MAT
+  repo: https://github.com/trinitysege/OAU-MAT
+  stack: https://stackshare.io/obafemi-awolowo-university-ife/obafemi-awolowo-university-ife/
+  members:
+    - trinitysege
+  components:
+    - oar
+    - FG
+    - gLibray
+  applications:
+    - Python
+
+- name: UI-NADA
+  repo:
+  stack:
+  members:
+  components:
+    - oar
+    - ophidia
+  applications:
+    - Python
+
+- name: HPC416S
+  repo:
+  stack:
+  members:
+    - trustodia
+  components:
+    - FG
+  applications:
+    - Qiime
+    - usearch-64-bit
+    - Python
+    - Perl
+    - blast
+    - FastQC
+    - Prodigal

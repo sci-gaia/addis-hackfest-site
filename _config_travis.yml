@@ -1,0 +1,47 @@
+# Site settings
+title: 'e-Research Hackfest'
+description: 'Bring your science to the web and the web to your science'
+url: 'http://localhost:4000/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+intro: 'The Sci-GaIA Hackfest brings together e-Science platform developers and scientists, to build tools for scientific discovery. These pages contain everything you need to get going and get it built'
+
+organiser:
+  name: 'Awesome McFancy'
+  email: best@super.com
+  twitter_username:
+  facebook_username:
+  github_username:
+  linkedin_username:
+built_with:
+  - jekyll_small
+  - bootstrap
+  - atom
+  - github_full
+  - travis
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude: [vendor]

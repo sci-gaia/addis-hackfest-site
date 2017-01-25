@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    {% if page.octocat %}
+    <div class="col-sm-10">
+      <h1 class="post-title">{{ page.title }} </h1>
+    </div>
+    <div class="col-sm-2">
+      <img class="team-image" src="{{site.url}}/images/{{ page.octocat}}" alt="page.title">
+    </div>
+    {% else %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% endif %}
+  </header>
+
+  <section class="post">
+    {{ content }}
+  </section>
+
+<p>
+  <div class="post-meta">
+    <em>Author: </em> {{ site.data.team.members[page.author].name }} <a href="https://github.com/{{ site.data.team.members[key].github}}"<i class="fa fa-github"></i></a> <a href="https://twitter.com/{{ site.data.team.members.[key].twitter}}"><i class="fa fa-twitter"></i></a><br>
+    {% if page.contributors %}
+    Contributors:
+    <ul>
+    {% for contrib in page.contributors %}
+    <li class="list-inline">
+      {{ site.data.team.members[contrib].name }}
+    </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</article>

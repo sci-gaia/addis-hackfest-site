@@ -1,0 +1,117 @@
+---
+# Put the the list of people, organisations and roles here.
+# The individuals are specified by username / id key, which
+# is used to identify them in their roles
+
+# Put profile pictures in images/
+
+# E.g :
+# username:
+#     name: "Boss Dude"
+#     photo: boss-dude.jpg
+#     orcid: 0000-0001-1234-5678
+#     github: bossdude
+#     twitter: bossdude
+#     homepage: http://boss.dude
+#     org: umbrellacorp
+
+# Organisations should have have logo
+
+members:
+  brucellino:
+    name: "Bruce Becker"
+    photo: bruce-becker.jpg
+    orcid: 0000-0002-6607-7145
+    github: brucellino
+    twitter: brusisceddu
+    homepage: http://brucellino.me
+    org: csir
+
+  owen:
+    name: "Owen  Iyoha"
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: eko
+
+  omo:
+    name: "Omo Oaia"
+    photo: omo-oaiya.jpg
+    orcid: 0000-0002-7046-8894
+    github: kodion
+    twitter: omooaiya
+    homepage: https://ng.linkedin.com/in/omooaiya
+    org: wacren
+
+  roberto:
+    name: Roberto Barbera
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: unict
+
+  benjamin:
+    name: Benjamin Aribisala
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: lasu
+
+  ade:
+    name: Adeji
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: lasu
+
+
+  rita:
+    name: Rita Ricceri
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: lasu
+
+  mario:
+    name: Mario Torrisi
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: unict
+  riccardo:
+    name: Riccardo Bruno
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: unict
+# Roles
+organisers:
+  - owen
+  - omo
+  - benjamin
+facilitators:
+  - roberto
+  - mario
+  - brucellino
+  - rita
+presenters:
+  - mario
+  - brucellino
+  - ade
+  - benjamin
+  - roberto
+  - riccardo
