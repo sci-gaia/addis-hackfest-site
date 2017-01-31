@@ -1,26 +1,18 @@
----
 language: ruby
 rvm:
 - 2.2.5
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
 before_install:
-  - gem update --system
-  - gem update
+- gem update --system
+- gem update
 install:
-  - gem install jekyll html-proofer
-
+- gem install jekyll html-proofer
 before_script:
-  - bundle install
+- bundle install
 script:
-  - bundle exec jekyll build -c _config_travis.yml
-#  - htmlproofer ./_site
-
+- bundle exec jekyll build -c _config_travis.yml
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 notifications:
-  slack: scigaia:giM9PBwyJsmwcahMNKGycfVY
-  slack: scigaia:bIFzN055YL5IwxrdSKBjqME0
+  slack:
+    secure: vynvg5UMjmSE4UIWC8HdqUiD9TbmN/bCYBp6jEuIbw2+m5SXg3/Ive9tLwv0MVJF7nyl/e8DLjRjO+gvVnPdCDgOJx7EHVfJiAzPPejAcVk+imCVLAES/o5EUI6VdCy66jMDRP1KvBEZ78oc/w/DeSGQECXMEqmEABVGIrC3RsfnI8iYl7osQP9mKaeTuyQCrnCufaXF0kpvi1/WTrkHe5l4tJksL39sqKLP9I+F0GG9QKwvq4AVULDz4I+16KbT/YonDJ/jWKuEnwyZQxkr3isRgYdX4aj0aLwnjMv+lpJbAkAp10HYSKvqvexZPSYtehBLa7yefUmbzO+CPd+E2w4bq+42T4E30itDRrwZzz18pILiKA2HbZ2zrhlOSRkheCjEHvucpCM4Qk8ZIC/5zzAoKP+tmqsVGwz68aUfU2hBcoEkXCRXYgeM8h9zvDAAl/iAIQGRzgXne8kdlc/06BjXYRFtJwuyiKLsOAfUoix/Yklpw4JnvXb+RW8wrfMiwU7NnzS0Tf6GyJ7ux3GR34X5rEb25sVQHAzsCzVkGHZqjP2Ow6uw9RYvTz+uJ8mGgtkwGvWDaNTtC9M8wGDpC6JyZgDirYq4ihreZq4OoM8mIwLucDpLZcrRQeaE+ptvylOyTSiRt5amKffQvMwLoPO9D1gP2I86yPDZU0iQYjI=
