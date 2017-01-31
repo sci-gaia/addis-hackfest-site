@@ -1,6 +1,6 @@
 ---
 # Where is your fork of the repo ?
-repo: AAROC/hackfest-site
+repo: Sci-GaIA/addis-hackfest-site
 # Create a topic on the forum for attendees to introduce themselves
 discuss_topic: http://discourse.sci-gaia.eu/t/agenda-and-training-infrastructure-of-the-wacren-hackfest-lets-start-the-discussion/2366
 start_topic: http://discourse.sci-gaia.eu/t/devops-bootcamp-entebbe-nov-2016-tell-us-about-yourself/2367
@@ -115,7 +115,7 @@ checklists:
 
 # This variable describes what is needed for a development environment
 dev_env_generic:
-  - name: A good editor 
+  - name: A good editor
     icon: atom
     more: Ensure you have a good editor. We suggest Atom, but use whatever you're comfortable with.
     link:
