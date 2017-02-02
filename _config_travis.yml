@@ -9,10 +9,9 @@ intro: 'The Sci-GaIA Hackfest brings together e-Science platform developers and 
 
 organiser:
   name: 'Awesome McFancy'
-  email: best@super.com
+  email: drillbot@africa-grid.org
   twitter_username:
-  facebook_username:
-  github_username:
+  github_username: drillbot
   linkedin_username:
 built_with:
   - jekyll_small

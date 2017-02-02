@@ -1,6 +1,6 @@
 # Site settings
-title: 'LSU e-Research Hackfest'
-description: 'The Sci-GaIA e-Research Hackfest at the Lagos State University.'
+title: 'Ethernet e-Research Hackfest'
+description: 'The Sci-GaIA e-Research Hackfest in Addis Ababa'
 url: 'http://localhost:4000/'
 
 # google_analytics: 'UA-XXXXXX-X'
@@ -9,11 +9,9 @@ url: 'http://localhost:4000/'
 intro: 'The Hackfest brings together e-Science platform developers and scientists, to build tools for scientific discovery. Bring your science to the web and the web to your science. These pages contain everything you need to get going and get it built'
 
 organiser:
-  name: 'WACREN'
+  name: 'EthERNet'
   email: info@sci-gaia.eu
   twitter_username: ei4africa
-  twitter_hashtags:
-  facebook_username:
   github_username: Sci-GaIA
   linkedin_username:
 # Made with love using these tools. This goes in the footer. Uses Devicons
