@@ -1,6 +1,6 @@
 # Site settings
-title: 'EthERNet e-Research Hackfest'
-description: 'The Sci-GaIA e-Research Hackfest at the Ethiopian Education & Research Network (EthERNet) in Addis Ababa.'
+title: 'Ethernet e-Research Hackfest'
+description: 'The Sci-GaIA e-Research Hackfest in Addis Ababa'
 url: 'http://localhost:4000/'
 
 # google_analytics: 'UA-XXXXXX-X'
