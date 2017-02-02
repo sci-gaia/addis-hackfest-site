@@ -4,8 +4,8 @@ repo: AAROC/hackfest-site
 # Create a topic on the forum for attendees to introduce themselves
 discuss_topic: http://discourse.sci-gaia.eu/t/agenda-and-training-infrastructure-of-the-wacren-hackfest-lets-start-the-discussion/2366
 start_topic: http://discourse.sci-gaia.eu/t/devops-bootcamp-entebbe-nov-2016-tell-us-about-yourself/2367
-agenda: https://indico.wacren.net/event/43/overview
-registration: https://indico.wacren.net/event/43/registration/register#/register
+agenda: http://agenda.ct.infn.it/event/1254/
+registration: http://agenda.ct.infn.it/event/1254/registration/register
 # epoch time - use e.g. http://www.freeformatter.com/epoch-timestamp-to-date-converter.html
 start_time: 1479711600
 end_date: 1480521600
@@ -115,7 +115,7 @@ checklists:
 
 # This variable describes what is needed for a development environment
 dev_env_generic:
-  - name: A good editor 
+  - name: A good editor
     icon: atom
     more: Ensure you have a good editor. We suggest Atom, but use whatever you're comfortable with.
     link:
