@@ -1,5 +1,5 @@
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/sci-gaia-e-research-hackfest/dev-and-integration-platform) [![The MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Travis CI](https://img.shields.io/travis/AAROC/addis-hackfest.svg?style=flat-square)](https://travis-ci.org/AAROC/addis-hackfest)
+[![Build Status](https://travis-ci.org/brucellino/addis-hackfest-site.svg?branch=master)](https://travis-ci.org/brucellino/addis-hackfest-site)
 
 # Hackfest Site
 
