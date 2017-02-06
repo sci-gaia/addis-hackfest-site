@@ -3,7 +3,7 @@
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
 
-<header class="panel-cover" style="background-image: url({{ "images/background.jpeg" | prepend: site.url }})">
+<header class="panel-cover" style="background-image: url({{ "/images/background.jpeg" | prepend: site.url }})">
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
@@ -82,7 +82,7 @@
 
     <div class="panel-main__content">
         <a href="{{ site.url }}" title="link to home of {{ organiser.name }}">
-          <img src="{{ "images/sci-gaia-logo.png" | prepend: site.url }}" class="user-image" alt="Organiser icon">
+          <img src="{{ "/images/sci-gaia-logo.png" | prepend: site.url }}" class="user-image" alt="Organiser icon">
           <h1 class="panel-cover__title panel-title"><i class="fa fa-flask"></i> {{ site.title }} <i class="fa fa-globe"></i></h1>
         </a>
         <hr class="panel-cover__divider">
