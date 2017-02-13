@@ -19,5 +19,5 @@ contributors:
     * [**Pre-event checklist**]({{ site.url }}/before-checklist/) : Do this before you come to the event.
     * [**Prerequisite Knowledge**]({{ site.url}}/prerequisites/) : Things you need to know how to use and do during the hackfest.
     * [**Background Reading**]({{ site.url }}/before-prep) : Useful material to help you when the rubber meets the road.
-  * [**Agenda**]({{ site.data.agenda }}) : What happens day-to-day. The slides and other material _presented_ during the hackfest are on the agenda.
+  * [**Agenda**]({{ site.data.hackfest.agenda }}) : What happens day-to-day. The slides and other material _presented_ during the hackfest are on the agenda.
   * [**Previous Hackfests**]:(http://www.sci-gaia.eu/summer-hackfest) - material, recordings and other material from previous hackfests
