@@ -7,7 +7,7 @@ octocat: constructocat2.jpg
 contributors:
 ---
 <div class="row">
-  
+
 </div>
 The **development environment** refers to a setup where all of the dependencies and configuration needed to both **develop** and **test** your applicaiton are available. The development environment should be as close as possible to the **deployment** environment. The tools described here are the **bare minimum** needed to complete the warmup exercises.
 
@@ -42,14 +42,33 @@ Here are a few suggestions for language-specific stacks:
 
 
 
+# Use a machine provided for you
+
+We have set up access to a machine (via ssh) which is preconfigured as a development environment. We use _your_ ssh keys from your github account to provide you access (see the [before checklist]({{ site.url}}/before-checklist/)). In order to access the machine, you should use your github username :
+
+`ssh <gihtub username>@sgw-dev.sci-gaia.eu`
+
+_e.g._ :
+
+`ssh brucellino@sgw-dev.sci-gaia.eu`
+
+This machie hass been provisioned with most of  the tools we mention above, so that you can do the warmup sessions during hte hackfest. However, it will be destroyed soon after the hackfest; it may be easier and more comfortable to work on your own machine, or a remote development environment closer to home.
+
 # Set up your own
 
-<span class="text-info">Coming soon</span>
+
+## <i class="fa fa-asterisk"></i> (Beta) Use our playbook
+
+You can use the same Ansible playbook that we use to set up the development environment. Some tweaking on your part may be necessary (and we would welcome pull requests for things you consider necessary !), but here's what to do when setting up the development environment :
+
+  1. Clone the [Hackfest-Prep](https://github.com/AAROC/e-Research-Hackfest-Prep) repo : `git clone https://github.com/AAROC/e-Research-Hackfest-Prep`
+  1. Get Ansible, if you don't : [see Ansible website](http://docs.ansible.com/ansible/intro_installation.html)
+  1. The playbooks are in `e-Research-Hackfest-Prep/services/Ansible`
+  1. Run the playbook against your local machine  : `ansible-playbook -i localhost, -c local development-environment.yml`
+
+<span class="text-info">More details coming soon</span>
 
 # Use Docker
 
-<span class="text-info">Coming soon</span>
-
-# Use a machine provided for you
-
+We're working on a Docker image for you to use. Stay tuned.
 <span class="text-info">Coming soon</span>
