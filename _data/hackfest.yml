@@ -45,12 +45,6 @@ pages:
     url: /updates
 checklists:
   before:
-    - name: Have a working development environment
-      more: |
-            The hackfest is all about code. It's best to have a working setup on your laptop - turn your personal computer into a development machine with some of our suggestions. Bear in mind <a href="http://dictionary.cambridge.org/dictionary/english/ymmv">YMMV</a>
-      link:
-        url: /dev-env
-        external: false
     - name: Have a github account
       more: Create an account on github, if you haven't done so already.
       link:
@@ -63,6 +57,12 @@ checklists:
       link:
         url: https://github.com/settings/keys
         external: true
+    - name: Have a working development environment
+      more: |
+           The hackfest is all about code. It's best to have a working setup on your laptop - turn your personal computer into a development machine with some of our suggestions. Bear in mind <a href="http://dictionary.cambridge.org/dictionary/english/ymmv">YMMV</a>
+      link:
+        url: /dev-env
+        external: false
     - name: Create your repository
       more: Ensure that your project has a repository on github - we will need it.
       link:
@@ -115,7 +115,7 @@ checklists:
 
 # This variable describes what is needed for a development environment
 dev_env_generic:
-  - name: A good editor 
+  - name: A good editor
     icon: atom
     more: Ensure you have a good editor. We suggest Atom, but use whatever you're comfortable with.
     link:
