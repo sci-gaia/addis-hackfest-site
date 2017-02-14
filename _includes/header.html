@@ -9,7 +9,11 @@
     <div class="panel-main__inner panel-inverted">
       <nav class="cover-navigation navigation--social">
         <ul class="navigation">
-
+        {% if site.organiser.gitter %}
+        <li class="nagivation__item">
+          <a href="https://gitter.im/{{ site.organiser.gitter }}"><img src="https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square" title="{{ site.organiser.gitter }}" alt="Chat on gitter" /></a>
+        </li>
+        {% endif %}
         {% if site.organiser.twitter_username %}
           <!-- Twitter -->
           <li class="navigation__item">

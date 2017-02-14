@@ -12,7 +12,8 @@ organiser:
   email: info@sci-gaia.eu
   twitter_username: ei4africa
   facebook_username:
-  repo: AAROC/hackfest-site
+  repo: AAROC/addis-hackfest
+  gitter: addis-hackfest/Lobby
   linkedin_username:
 built_with:
   - jekyll_small
