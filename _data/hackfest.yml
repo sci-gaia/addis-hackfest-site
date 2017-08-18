@@ -1,11 +1,11 @@
 ---
 # Where is your fork of the repo ?
-repo: AAROC/hackfest-site
+repo: AAROC/addis-hackfest
 # Create a topic on the forum for attendees to introduce themselves
-discuss_topic: http://discourse.sci-gaia.eu/t/agenda-and-training-infrastructure-of-the-wacren-hackfest-lets-start-the-discussion/2366
-start_topic: http://discourse.sci-gaia.eu/t/devops-bootcamp-entebbe-nov-2016-tell-us-about-yourself/2367
-agenda: https://indico.wacren.net/event/43/overview
-registration: https://indico.wacren.net/event/43/registration/register#/register
+discuss_topic: http://discourse.sci-gaia.eu/t/addis-hackfest-2017-tell-us-about-yourself/2468
+start_topic: http://discourse.sci-gaia.eu/t/addis-hackfest-2017-tell-us-about-yourself/2468
+agenda: http://agenda.ct.infn.it/event/1254/
+registration: http://agenda.ct.infn.it/event/1254/registration/register
 # epoch time - use e.g. http://www.freeformatter.com/epoch-timestamp-to-date-converter.html
 start_time: 1479711600
 end_date: 1480521600
@@ -45,12 +45,6 @@ pages:
     url: /updates
 checklists:
   before:
-    - name: Have a working development environment
-      more: |
-            The hackfest is all about code. It's best to have a working setup on your laptop - turn your personal computer into a development machine with some of our suggestions. Bear in mind <a href="http://dictionary.cambridge.org/dictionary/english/ymmv">YMMV</a>
-      link:
-        url: /dev-env
-        external: false
     - name: Have a github account
       more: Create an account on github, if you haven't done so already.
       link:
@@ -63,6 +57,12 @@ checklists:
       link:
         url: https://github.com/settings/keys
         external: true
+    - name: Have a working development environment
+      more: |
+           The hackfest is all about code. It's best to have a working setup on your laptop - turn your personal computer into a development machine with some of our suggestions. Bear in mind <a href="http://dictionary.cambridge.org/dictionary/english/ymmv">YMMV</a>
+      link:
+        url: /dev-env
+        external: false
     - name: Create your repository
       more: Ensure that your project has a repository on github - we will need it.
       link:
@@ -115,7 +115,7 @@ checklists:
 
 # This variable describes what is needed for a development environment
 dev_env_generic:
-  - name: A good editor 
+  - name: A good editor
     icon: atom
     more: Ensure you have a good editor. We suggest Atom, but use whatever you're comfortable with.
     link:

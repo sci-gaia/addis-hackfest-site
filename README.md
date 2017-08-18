@@ -1,6 +1,5 @@
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/sci-gaia-e-research-hackfest/dev-and-integration-platform) [![The MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Travis CI](https://img.shields.io/travis/AAROC/hackfest-site.svg?style=flat-square)](https://travis-ci.org/AAROC/hackfest-site)
-
+[![Build Status](https://travis-ci.org/AAROC/addis-hackfest.svg?branch=master)](https://travis-ci.org/AAROC/addis-hackfest)
 # Hackfest Site
 
 A responsive website for Summer Hackfest events.
@@ -37,7 +36,7 @@ infrastructure:
 
 # Assets
 
-There are some static files and scripts in `assets` which are useful for seeding the event. 
+There are some static files and scripts in `assets` which are useful for seeding the event.
 
 ## What this is for
 
